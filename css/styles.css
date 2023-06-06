@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.color-text {
+    color: rgb(190, 216, 207);
+}
+
 .width-table {
     width: 60%;
 }
@@ -18,6 +22,10 @@
 
 .color-thead {
     color: #f1f6f3
+}
+
+.tbody {
+    color: #fe7e23;
 }
 
 .th {

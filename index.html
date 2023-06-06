@@ -11,8 +11,8 @@
     <title>Document</title>
 </head>
 
-<body>
-    <div id="app" :class="mainStyle">
+<body :style="{'font-family': mainText}">
+    <div id="app">
         <navbar :item1="item1" :item2="item2" :item3="item3" :style="{'background-color':bgNav}"></navbar>
 
         <titulo class="text-center mt-5 mb-5"></titulo>
@@ -27,7 +27,7 @@
                     <th class="th" scope="col">Precio</th>
                 </tr>
             </thead>
-            <tbody>
+            <tbody :class="tableStyle">
                 <tr v-for="(producto, i) in makeup" :class="i %2 === 0 ? 'odd' : 'even'">
                     <td>{{producto.id}}</td>
                     <td>{{producto.nombre}}</td>

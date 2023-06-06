@@ -77,14 +77,11 @@ createApp({
         }
       ],
 
-      mainStyle: {
-        "main-text": true,
-        "color-text": true
-      },
-
       tableStyle: {
         "width-table": true,
         "margin-table": true,
+        "tbody": false,
+        "main-text": true
       },
 
       theadStyle: {
